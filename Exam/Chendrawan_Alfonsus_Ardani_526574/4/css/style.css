@@ -1,0 +1,13 @@
+.button-container{
+    border:solid 1px red;
+}
+main{
+    margin:auto;
+}
+.button-container > section{
+    margin: 10px;
+    font-size: 0;
+}
+.center-col{
+    margin: 0 10px;
+}

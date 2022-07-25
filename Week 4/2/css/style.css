@@ -1,0 +1,27 @@
+
+a{
+    padding: 10px;
+    border-left: 2px solid #CCCCCC;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    display:inline-block;
+}
+
+a:first-of-type{
+    border-left: none;
+    border-top: none;
+}
+
+a:hover{
+    color: #000000;
+    background-color: #FFAAAA;
+}
+
+@media screen and (max-width: 960px) {
+    a{
+        display:block;
+        border-left: none;
+        border-top: 2px solid #ccc;
+    }
+}

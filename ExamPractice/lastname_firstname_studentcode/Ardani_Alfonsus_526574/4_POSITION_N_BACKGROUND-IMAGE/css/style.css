@@ -1,0 +1,17 @@
+header{
+    background-image: url('../imgs/header.jpg');
+    background-size:cover;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+}
+header nav{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+main{
+    position:relative;
+    margin: 170px auto;
+    width: 700px;
+}

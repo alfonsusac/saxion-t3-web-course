@@ -1,0 +1,10 @@
+figure{
+    border:5px solid black; 
+}
+figure.happy{
+    background-image: url('../imgs/pokemon_happy.gif');
+    position:relative;
+}
+figure.sad{
+    position:absolute;
+}

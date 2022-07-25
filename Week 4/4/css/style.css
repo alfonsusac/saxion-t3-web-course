@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/*
+import the "style-large.css and style-small.css files here according to the browser window size.
+*/
+@import url('style-large.css') screen and (min-width:840px);
+@import url('style-small.css') screen and (max-width:840px);
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F5EBDA;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+h2{
+	color: #424242;
+	font-size: 36px;
+	text-transform: uppercase;
+
+	font-weight: 600;
+}
+
+h3{
+	margin: 0 0 32px 0;
+	color: #424242;
+	font-size: 24px;
+	text-transform: uppercase;
+
+	font-weight: 600;
+}
+
+p{
+	margin: 0 0 16px 0;
+
+	font-size: 16px;
+}
+
+.wrapper{
+	background-color: #FFFFFF;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.mainNavigation{
+	margin: 32px 0 48px 0;
+
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.mainNavigation li a{
+	font-weight: 300;
+	color: #822209;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+
+article{
+	margin: 0 0 32px 0;
+}
+
+article img{
+	margin: 0 0 0 20px;
+	max-width: 40vw;
+}
+
+
+.footerNavigation ul li a img{
+	width: 100%;
+	height: auto;
+}
+
+.footerNavigation ul li{
+    display:inline-block;
+	list-style: none;
+}
+article img{
+	float:right;
+	margin: 5px;
+}
+

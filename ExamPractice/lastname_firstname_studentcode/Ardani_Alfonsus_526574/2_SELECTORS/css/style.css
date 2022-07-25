@@ -1,0 +1,19 @@
+/*
+Use the following colors:
+red = red
+green = green
+blue = blue
+*/
+
+.first  h2 + p {
+    background-color: red;
+}
+
+.second p {
+    background-color : green;
+}
+
+.third > p {
+    background-color: blue;
+}
+

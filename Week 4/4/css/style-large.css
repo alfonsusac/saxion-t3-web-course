@@ -1,0 +1,34 @@
+.mainNavigation li.active{
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	float:left;
+	position:relative;
+	top: -1px;
+}
+
+.mainNavigation li a{
+	padding: 0 10px 0 10px;
+}
+
+.mainNavigation li a:hover{
+	text-decoration: underline;
+}
+
+.footerNavigation ul li:last-child{
+	margin: 0;
+}
+.mainNavigation ul li{
+	padding: 10px;
+
+	list-style: none;
+	display:inline-block;
+}
+.wrapper{
+	padding: 20px;
+}
+
+.footerNavigation ul{
+	display:flex;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+p {
+    font-family: "Boris Slaguis sans-serif";
+    /*  
+        3. a. No, There are no changes 
+        3. b. No there is no Boris Slaghuis sans-serif installed on my system
+        3. c. Google Chrome switches to the default Serif font which is Times new Roman
+    */
+    font-family: "Old Standard TT", serif;
+}
+
+h1 {
+    font-family: 'Cabin',sans-serif;
+}
+a{
+    color: #E65C00;
+}
+body{
+    background-color: #EFEDE0;
+}

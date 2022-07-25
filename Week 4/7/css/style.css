@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display:flex;
+	justify-content: center;
+}
+
+main{
+	width: 80%;
+	padding: 10px;
+	background-color: #CCCCCC;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+main div{
+	height: 80px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	flex: 80px 0 0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}

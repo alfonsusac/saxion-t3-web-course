@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+	background-color: lightgray;
+}
+
+
+:root {
+	--mc: indianred;
+}
+
+header{
+	background-color: var(--mc);
+	padding: 24px 16px 14px 16px;
+	text-align:end;
+}
+
+header > h1{
+	right: 0;
+}
+
+.membership{
+	height: 600px;
+	background-image:url("../images/main.jpg")
+}
+section .centered{
+	padding: 180px;
+	margin:auto;
+	width: 400px;
+	
+}
+section h1 a{
+	color:white;
+	text-decoration: none;
+	font-family: "Bree Serif", serif;
+	font-size: 32px;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+section > p, section > p > a{
+	color:white;
+	font-family: "Bree Serif", serif;
+	font-size: 18px;
+	line-height: 2.0em;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.introduction{
+	width: 600px;
+	position:relative;
+	margin: auto;
+	top: -120px;
+}
+.introduction h1{
+	background-color: black;
+	color:white;
+	padding: 16px;
+	font-family: arial;
+	width: fit-content;
+}
+.introduction p{
+	background-color: var(--mc);
+	padding: 36px 28px 28px 28px;
+	color:black;
+}
+.introduction section{
+	color:var(--mc);
+	text-align: end;	
+	margin: 24px 0;
+}
+.introduction section a{
+	width: fit-content;
+	color:var(--mc);
+	background-color:black;
+	padding:24px;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: 600;
+
+}
+
+main{
+	width: 800px;
+	margin: 24px auto;
+
+}
+main h1{
+	background-color:white;
+	padding: 60px;
+	color:var(--mc);
+	font-family: "Bree Serif";
+	font-size:32px;
+	border-bottom: 64px var(--mc) solid;
+}
+main p{
+	padding:24px 2px 16px 128px;
+	background-color:white;
+}
+main p:last-of-type{
+	padding-bottom: 64px;
+}

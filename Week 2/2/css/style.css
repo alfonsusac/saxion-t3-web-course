@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{
+    background-color: #EFEDE0;
+}
+article{
+    width:500px;
+    margin:50px;
+    padding:40px 20px 30px 20px;
+    background-color: white;
+}
+p {
+    font-family: "Old Standard TT", serif;
+}
+
+h1 {
+    font-family: 'Cabin',sans-serif;
+    color:#333333;
+}
+a{
+    color: #E65C00;
+}
+p:first-child, p:last-child{
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding:20px;
+	background-color: #EDEEEE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size:32px;
+    line-height: 60px;
+}
+figure{
+    border:5px solid black; 
+    overflow: hidden;
+    border-radius: 100%;
+    width:400px;
+    height:400px;
+}

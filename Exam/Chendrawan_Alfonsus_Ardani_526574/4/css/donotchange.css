@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+header{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100vw;
+    height:100px;
+    text-align: center;
+}
+.header-image{
+    height:100%;
+}
+main{
+    background-image: url('../imgs/reactor.png');
+    width:1280px;
+    height:726px;
+}
+.button-container{
+    float:left;
+    margin-top:258px;
+    margin-left:707px;
+}
